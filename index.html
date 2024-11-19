@@ -1,6 +1,126 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0" url="News.html">
-  </head>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoShift</title>
+    <link rel="stylesheet" href="ecoshift.css">
+    <link rel="icon" href="logo2.png">
+    <style>
+        #heading {
+            text-align: center;
+            padding: 20px;
+        }
+        #heading h1 {
+            font-size: 50px;
+            margin-bottom: 0px;
+        }
+        #heading h2 {
+            margin-top: 0px;
+            font-size: 30px;
+        }
+        .left {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .left .text {
+            text-align: center;
+            width: 650px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .left img {
+            width: 600px;
+            height: 350px;
+        }
+        .right {
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;           
+        }
+        .right .text {
+            text-align: center;
+            width: 650px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .links {
+            margin: 40px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .links a {
+            margin: 30px;
+            padding: 15px;
+            color:white;
+            background-color: #388494;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 20px;
+        }
+        .links a:hover {
+            background-color: #265b66;
+        }
+        img {
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" id="logo">
+        <div id="accounts">
+            <a href="Login.html">Login</a>
+            <a href="Register.html">Register</a>
+        </div>
+        <h1>Welcome to EcoShift</h1>
+        <h3>Help Us Save the Ecosystem!</h3>
+    </header>
+    <div class="sticky">
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="Programs.html">Programs</a>
+            <a href="Donate.html">Donate</a>
+            <a href="News.html">News</a>
+            <a href="Achievements.html">Achievements</a>
+            <a href="About Us.html">About Us</a>
+            <a href="Contact Us.html">Contact Us</a>
+        </nav>
+    </div>
+    <div id="heading">
+        <h1>HELP US MAKE A DIFFERENCE</h1>
+        <h2>CONTRIBUTE NOW</h2>
+    </div>
+    <div class="left">
+        <img src="clean.jpg">
+        <div class="text">
+            <h1>VOLUNTEER</h1>
+            <p>
+                Join our community of passionate individuals dedicated to making a difference! By volunteering with us, you’ll have the opportunity to engage in meaningful projects, connect with like-minded people, and contribute to causes that matter. Whether you have a few hours to spare or can commit long-term, your support is invaluable. Together, we can create positive change and enrich the lives of those we serve.
+            </p>
+        </div>
+    </div>
+    <div class="right">
+        <div class="text">
+            <h1>DONATE</h1>
+            <p>
+                Your support makes a difference! By donating today, you help us further our mission and impact lives in meaningful ways. Every contribution, no matter the size, plays a crucial role in enabling us to continue our work and reach those in need. Join us in creating positive change—your generosity empowers our efforts and brings hope to many.
+            </p>
+        </div>
+        <img src="donate.jpg">
+    </div>
+    <div class="links">
+        <a href="Register.html">REGISTER NOW</a>
+        <a href="Donate.html">DONATE NOW</a>
+    </div>
+    <footer>
+        <h3>&copy; 2024 EcoShift. All Rights Reserved</h3>
+        <h4><a href="Terms.html">Terms of Service</a></h4>
+    </footer>
+</body>
+</html> 
