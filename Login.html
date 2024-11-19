@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - EcoShift</title>
+    <link rel="icon" type="png" href="logo2.png">
+    <link rel="stylesheet" href="ecoshift.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+        }
+        .container {
+            width: 1000px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            align-self: center;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 96.5%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="text"]:hover,
+        input[type="password"]:hover {
+            background-color: #e8e8e8;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" id="logo">
+        <h1>EcoShift</h1>
+        <h3>Help Us Save the Ecosystem!</h3>
+    </header>
+    <div class="sticky">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Programs.html">Programs</a>
+            <a href="Donate.html">Donate</a>
+            <a href="News.html">News</a>
+            <a href="Achievements.html">Achievements</a>
+            <a href="About Us.html">About Us</a>
+            <a href="Contact Us.html">Contact Us</a>
+        </nav>
+    </div>
+    <div class="container" style="width: 600px;">
+        <h1 style="text-align: center;">Login</h1>
+        <form>
+            <form action="#" method="POST">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>            
+            <input type="submit" value="Login">
+        </form>
+            <h4 style="text-align: center;">Not a User? <a href="Register.html">Register</a></h4>
+        </div>    
+    </form>
+    <footer style="position: absolute; bottom: 0px; width: 100%;">
+        <h3>&copy; 2024 EcoShift. All Rights Reserved</h3>
+        <h4><a href="Terms.html">Terms of Service</a></h4>
+    </footer>
+</body>
+</html>

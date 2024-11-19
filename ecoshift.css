@@ -1,0 +1,106 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c5e9e2;
+    margin: 0px;
+}
+
+#logo {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 150px;
+}
+
+header {
+    background-color: #388494;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+#accounts {
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+
+#accounts a {
+    background-color: #c5e9e2;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#accounts a:hover {
+    background-color: #e0fff9;
+}
+
+header h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 0px;
+    position: static;
+    top: 0px;
+}
+
+header h3 {
+    margin-top: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.sticky {
+    margin-top: 0px;
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    margin-top: 0px;
+    background-color: #388494;
+    display: flex;
+    justify-content:center;
+    position: sticky;
+    top:0;
+}
+
+nav a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px #265b66 solid;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: sticky;
+    top: 0px;
+}
+
+nav a:hover {
+    background-color: #265b66;
+}
+
+footer {
+    background-color: #388494;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+footer h3 {
+    line-height: 0px;
+}
+footer h4 a{
+    line-height: 0px;
+    text-decoration: underline;
+    color: white;
+}
